@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISwitch *onOffSwitch;
+@property (weak, nonatomic) IBOutlet UISlider *brightnessSlider;
+@property (weak, nonatomic) IBOutlet UIView *lightSource;
 
+- (IBAction)setLightSourceAlphaValue:(id)sender;
+
+- (void)updateUserSettings;
 @end

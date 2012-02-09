@@ -38,21 +38,21 @@
 		4E74BBB414E34E3A0053F076 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4E74BBB614E34E3A0053F076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E74BBB814E34E3A0053F076 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4E74BBBC14E34E3A0053F076 /* YetAnotherFlashlight-Info.plist */ = {isa = PBXFileReference; path = "YetAnotherFlashlight-Info.plist"; sourceTree = "<group>"; };
+		4E74BBBC14E34E3A0053F076 /* YetAnotherFlashlight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YetAnotherFlashlight-Info.plist"; sourceTree = "<group>"; };
 		4E74BBBE14E34E3A0053F076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E74BBC014E34E3A0053F076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E74BBC214E34E3A0053F076 /* YetAnotherFlashlight-Prefix.pch */ = {isa = PBXFileReference; path = "YetAnotherFlashlight-Prefix.pch"; sourceTree = "<group>"; };
-		4E74BBC314E34E3A0053F076 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E74BBC214E34E3A0053F076 /* YetAnotherFlashlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YetAnotherFlashlight-Prefix.pch"; sourceTree = "<group>"; };
+		4E74BBC314E34E3A0053F076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E74BBC414E34E3A0053F076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E74BBC714E34E3A0053F076 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4E74BBCA14E34E3A0053F076 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4E74BBCC14E34E3A0053F076 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E74BBCC14E34E3A0053F076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E74BBCD14E34E3A0053F076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E74BBD414E34E3A0053F076 /* YetAnotherFlashlightTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetAnotherFlashlightTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E74BBD514E34E3A0053F076 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4E74BBDD14E34E3A0053F076 /* YetAnotherFlashlightTests-Info.plist */ = {isa = PBXFileReference; path = "YetAnotherFlashlightTests-Info.plist"; sourceTree = "<group>"; };
+		4E74BBDD14E34E3A0053F076 /* YetAnotherFlashlightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YetAnotherFlashlightTests-Info.plist"; sourceTree = "<group>"; };
 		4E74BBDF14E34E3A0053F076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E74BBE114E34E3A0053F076 /* YetAnotherFlashlightTests.h */ = {isa = PBXFileReference; path = YetAnotherFlashlightTests.h; sourceTree = "<group>"; };
+		4E74BBE114E34E3A0053F076 /* YetAnotherFlashlightTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YetAnotherFlashlightTests.h; sourceTree = "<group>"; };
 		4E74BBE214E34E3A0053F076 /* YetAnotherFlashlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YetAnotherFlashlightTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

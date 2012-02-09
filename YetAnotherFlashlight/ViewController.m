@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize onOffSwitch;
+@synthesize brightnessSlider;
+@synthesize lightSource;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +25,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+  self.brightnessSlider.value = [defaults floatForKey:kBrightnessLevel];
+  self.onOffSwitch.on = [defaults boolForKey:kOnOffToggle];
+  [self setLightSourceAlphaValue:self];
 }
 
 - (void)viewDidUnload
 {
+    [self setOnOffSwitch:nil];
+    [self setBrightnessSlider:nil];
+    [self setLightSource:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -61,4 +71,20 @@
   }
 }
 
+- (IBAction)setLightSourceAlphaValue:(id)sender {
+  [self updateUserSettings];
+  
+  if (self.onOffSwitch.on) {
+    self.lightSource.alpha = self.brightnessSlider.value;
+  } else {
+    self.lightSource.alpha = 0.0;
+  }
+}
+
+- (void)updateUserSettings {
+  NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+  [userDefaults setBool:self.onOffSwitch.on forKey:kOnOffToggle];
+  [userDefaults setFloat:self.brightnessSlider.value forKey:kBrightnessLevel];
+  [userDefaults synchronize];
+}
 @end
